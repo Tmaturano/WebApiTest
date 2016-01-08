@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTeste", "WebApiTeste\WebApiTeste.csproj", "{C9D1571D-1746-4B74-AB8E-7375573587DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumidorDeServicos", "ConsumidorDeServicos\ConsumidorDeServicos.csproj", "{E37044B1-DF2D-4B59-8EF8-A9F6307FA2C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEAEBB2B-393F-4602-A597-017E32CA9A48} = {CEAEBB2B-393F-4602-A597-017E32CA9A48}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTest", "WcfTest\WcfTest.csproj", "{CEAEBB2B-393F-4602-A597-017E32CA9A48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +26,10 @@ Global
 		{E37044B1-DF2D-4B59-8EF8-A9F6307FA2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E37044B1-DF2D-4B59-8EF8-A9F6307FA2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E37044B1-DF2D-4B59-8EF8-A9F6307FA2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEAEBB2B-393F-4602-A597-017E32CA9A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAEBB2B-393F-4602-A597-017E32CA9A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAEBB2B-393F-4602-A597-017E32CA9A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAEBB2B-393F-4602-A597-017E32CA9A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
